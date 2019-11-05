@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS CountryDtls;
+ 
+CREATE TABLE CountryDtls (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  country_name VARCHAR(250) NOT NULL,
+  country_cd VARCHAR(250) NOT NULL
+);
